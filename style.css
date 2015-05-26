@@ -1,0 +1,85 @@
+body {
+    
+    font-family: 'Tahoma', Times, serif; 
+    padding: 0;
+    margin: 0;
+    color:#000000;
+    background: url(img/body.jpg) no-repeat 0px 0px #000000;
+    background-position: center;
+    text-align: justify;
+}
+
+header {
+    
+   height: 250px;
+   background: url(img/SWTOR-logo.png) no-repeat 0px 0px #000000;
+   background-position: center;
+   color: #1D1927;
+}
+
+footer {
+    
+   height: 70px;
+   background: #515151;
+   color: #818181;
+   margin-top: 50px;
+   padding: 5px;
+}
+
+.logo {
+    
+	width: 100%;
+    padding-left: 0px;
+    padding-top: 10px;
+    float: left;
+    
+}
+
+
+
+.main {
+    
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: block;
+    background: #515151;
+    margin-top: 80px;
+    height: 45px;
+	
+}
+
+nav a {
+    
+    color: #ffffff;
+    text-decoration: none;
+    height: 40px;
+    display: block;
+    float: left;
+    padding: 10px 15px 5px 15px;
+    
+} 
+
+nav a:hover {
+    
+    background: #e2b05f;
+    color: #505050;
+    height: 30px;
+    display: block;
+    float: left;
+}
+
+.content {
+    
+    background: #1D1927;
+    color: #EBB83C;
+    padding: 10px;
+    min-height: 600px;
+	text-align: justify;
+}
+
+
+
