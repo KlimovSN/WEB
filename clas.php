@@ -17,7 +17,7 @@
 <div class="main">
 
 <nav>
-        <a href="index.php">Главная</a>  <a href="clas.php">Классы</a> <a href="#">Покупка валюты</a>  <a href="#">Регистрация</a>
+        <a href="index.php">Главная</a>  <a href="clas.php">Классы</a> <a href="zakaz.php]">Покупка валюты</a>  <a href="#">Регистрация</a>
 </nav>
 
 <div class="content">

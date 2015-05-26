@@ -36,7 +36,6 @@ footer {
 }
 
 
-
 .main {
     
     width: 1000px;
@@ -81,5 +80,84 @@ nav a:hover {
 	text-align: justify;
 }
 
+.warning {
+    
+   background: #EBB83C;
+   color: #717171;
+   padding: 10px;
+   text-align: center; 
+   width: 500px;
+   margin: 10px 10px 10px 250px;
+}
+
+.all_game_bg {
+    padding: 0px 0px 0px 200px;
+    margin: 0 auto;
+    width: 900px;
+    height: 105px;
+}
+
+.game_bg {
+    
+    float: left;
+}
+
+img {
+    
+    border:0;
+}
 
 
+/* Стили полей ввода */
+.textbox{
+  height:30px;
+  width: 20%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px; 
+  padding:5px;
+  margin-bottom:30px;  
+}
+.message:focus,
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+/* Стили текстового поля */
+.message{
+    background: rgba(255, 255, 255, 1); 
+    width:50%;
+    height: 120px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button{
+  height:50px;
+  width:20%;
+  border-radius:3px;
+  border: #227cc8;/*rgba(0,0,0,.3) 0px solid;*/
+  box-sizing:border-box;
+  padding:10px;
+  background:#227cc8;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight:400;
+  font-size: 16pt;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+  background:#749abb;
+}
