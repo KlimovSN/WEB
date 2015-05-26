@@ -35,6 +35,10 @@ footer {
     
 }
 
+.logo :hover {
+    animation:anim 5s infinite;
+    -webkit-animation:anim 5s infinite;  
+}
 
 .main {
     
@@ -105,6 +109,25 @@ nav a:hover {
 img {
     
     border:0;
+}
+
+
+@keyframes anim {
+0%   {margin-left:3px;}
+    50%  {margin-left:590px;}
+    100%  {margin-right:590px;}
+}
+
+@-moz-keyframes anim {
+0%   {margin-left:3px;}
+    50%  {margin-left:590px;}
+    100%  {margin-right:590px;}
+}
+
+@-webkit-keyframes anim{
+	0%   {margin-left:3px;}
+    50%  {margin-left:590px;}
+    100%  {margin-right:590px;}
 }
 
 

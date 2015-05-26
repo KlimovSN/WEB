@@ -17,7 +17,7 @@
 <div class="main">
 
 <nav>
-        <a href="index.php">Главная</a>  <a href="clas.php">Классы</a> <a href="zakaz.php]">Покупка валюты</a>  <a href="#">Регистрация</a>
+        <a href="index.php">Главная</a>  <a href="clas.php">Классы</a> <a href="zakaz.php">Покупка валюты</a>  <a href="#">Регистрация</a>
 </nav>
 
 <div class="content">
@@ -28,28 +28,28 @@
   <div class="all_game_bg">
   
   <div class="game_bg">
-    <a href="#"><img src="img/Десантник.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Десантник.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Рыцарь.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Рыцарь.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Контрабандист.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Контрабандист.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Консул.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Консул.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Охотник.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Охотник.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Агент.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Агент.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Воин.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Воин.png" alt="" /></a>
   </div>
   <div class="game_bg">
-    <a href="#"><img src="img/Инквизитор.png" alt="" /></a>
+    <a href="zakaz.php"><img src="img/Инквизитор.png" alt="" /></a>
   </div>
 
   </div>
