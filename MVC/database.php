@@ -47,10 +47,63 @@ class database {
         return $zakaz;
     }
 	
-	
+	public function GetLastId ()
+    {
+        $db = mysql_connect($this->host,$this->user,$this->pass)  or die("Невозможно соединиться с базой");
+        mysql_select_db("wt",$db)  or die("Невозможно выбрать базу");
+		
+        $result = mysql_query("SELECT * FROM zakaz ORDER BY id DESC LIMIT 1",$db);
+        $row = mysql_fetch_array($result);
+        
+        return $row['id'];
+    }
     
 	
-	
+	public function CheckStatus ($rawPostData)
+    {
+        $db = mysql_connect($this->host,$this->user,$this->pass)  or die("Невозможно соединиться с базой");
+        mysql_select_db("wt",$db)  or die("Невозможно выбрать базу");
+        
+        $xml = new SimpleXMLElement($rawPostData);
+        foreach ($xml as $key => $value) {
+        	$$key = $value;
+            
+            if($key=="id")
+            {
+                $id = $value;
+            }
+            
+        }
+        
+        $queryResult = mysql_query("SELECT * FROM zakaz WHERE id=$id",$db);
+        $row = mysql_fetch_array($queryResult);
+        
+        $status = $row['status'];
+		
+		if($status==0)
+		{
+			$status = "В обработке";
+		}elseif($status==1)
+		{
+			$status = "Выполнен";
+		}elseif($status==2)
+		{
+			$status = "Не выполнен";
+		}
+        
+        
+        header('Content-Type: application/xml');
+        $xml = "<?xml version=\"1.0\" ?>";
+        
+        $xml.= "<zakaz>";
+        
+        $xml.= "<status>" . $status . "</status>";
+        
+        
+        $xml.= "</zakaz>";
+        
+        return $xml;
+    }
     
 }
 

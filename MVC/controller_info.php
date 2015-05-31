@@ -2,14 +2,23 @@
 
 
 require_once 'database.php';
-$content_view = "info_view";
 
 $db = new database();
 
-$id = $_GET['id'];
-$Obj = $db->SelectZakaz($id);
+if(isset($GLOBALS['HTTP_RAW_POST_DATA']))
+{
+    $rawPostData = $GLOBALS['HTTP_RAW_POST_DATA'];
+    
+	header('Content-Type: application/xml');
+    echo $db->CheckStatus($rawPostData);
+}else
+{
+	$content_view = "info_view";
 
-require_once("template_view.php"); 
+	$id = $_GET['id'];
+	$Obj = $db->SelectZakaz($id);
 
+	require_once("template_view.php"); 
+}
 
 ?>
