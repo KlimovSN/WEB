@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.content {
+	width: 650px;
+    height: 561px;
+    font-size: 13px;
+	background: #1F0068;
+
+    padding: 5px;
+    
+	color: #FFF9FF;
+	font-family:  Segoe UI;
+}
+
+.strings{
+/*margin: 50px 3px 50px 0px;*/
+margin-left: 35px;
+
+}
+
+.string{
+margin: 0px 3px 0px 0px;
+}
+
+.tb {
+/*text-align: center;*/
+/*width: 300px;*/
+color: #121212;
+/*border-style: solid;
+border-width: 2px;
+border-color: #FFFFFF;*/
+background: #D1CCE0;
+padding: 2px 0px 2px 5px;
+margin: 3px 3px 3px 0px;
+font-family:  Segoe UI;
+}
+
+.tbu {
+/*text-align: center;*/
+/*width: 300px;*/
+color: #121212;
+/*border-style: solid;
+border-width: 2px;
+border-color: #FFFFFF;*/
+background: #FFFFFF;
+padding: 2px 0px 2px 5px;
+margin: 3px 3px 3px 0px;
+font-family:  Segoe UI;
+}
+
+#title{
+font-size: 22px;
+letter-spacing: 0px;
+padding: 0px 0px 10px 0px;
+}
+
+#back{
+position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+#clear{
+position: absolute;
+    left: 470px;
+    top: 285px;
+}
+
+#down{
+position: absolute;
+    left: 470px;
+    top: 390px;
+}
+
+.but3 {
+color: #FFFFFF;
+border-style: solid;
+border-width: 2px;
+background: #4418B3;
+padding: 3px 3px 3px 3px;
+margin: 3px 10px 3px 10px;
+width:70px;
+float:right;
+text-align: center;
+}
+
+.but2 {
+color: #FFFFFF;
+border-style: solid;
+border-width: 2px;
+background: #1F0068;
+padding: 3px 3px 3px 3px;
+margin: 3px 10px 3px 10px;
+width:70px;
+float:right;
+text-align: center;
+}
+
+.but1 {
+color: #FFFFFF;
+border-style: solid;
+border-width: 2px;
+background: #1F0068;
+padding: 3px 3px 3px 3px;
+margin: 3px 10px 3px 10px;
+width:160px;
+float:right;
+text-align: center;
+}
+
+.buts {
+text-align: right;
+}
+
+#under { 
+text-decoration:underline;
+}
+
+table {
+    border: 0px double #333; /* Рамка вокруг таблицы */ 
+    border-collapse: separate; /* Способ отображения границы */ 
+    width: 75%; /* Ширина таблицы */ 
+    border-spacing: 7px 24px; /* Расстояние между ячейками */ 
+   }
+   td {
+    
+    padding: 0px; /* Поля вокруг текста */ 
+    border: 0px solid #a52a2a; /* Граница вокруг ячеек */ 
+	
+   }
+   
+   tr {
+   height: 27px;
+   }
+   
+   #circle {
+    width: 5px;
+    height: 5px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+	display: inline-block;
+}
