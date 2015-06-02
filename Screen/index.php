@@ -50,14 +50,13 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 	
 	<div id = "title"> Настройка учетной записи Майкрософт</div>
 		
-		<div > 
+		<div id ="tit2"> 
 			Вы можете использовать свою учетную запись Майкрософт для Входа в Xbox LIVE, Windows <br>Phone и другие службы Майкрософт. 
 		</div>
-		<br>
 		<table>
 		
 		<tr>
-		<td width="130px"  class = "string">
+		<td width="135px"  class = "string">
 		Адрес электронной <br>почты
 		</td>
 		<td class ="tb" width="300px">
@@ -65,7 +64,7 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 		</td>
 		</tr>
 		<tr>
-		<td width="130px"  class = "string">
+		<td width="135px"  class = "string">
 		Новый пароль
 		</td>
 		<td class ="tb" width="300px" >
@@ -82,7 +81,7 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 		</td>
 		</tr>
 		<tr>
-		<td width="130px"  class = "string">
+		<td width="135px"  class = "string">
 		Подтверждение
 		</td>
 		<td class ="tb" width="300px">
@@ -99,7 +98,7 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 		</td>
 		</tr>
 		<tr>
-		<td width="130px" class = "string">
+		<td width="135px" class = "string">
 		Фамилия
 		</td>
 		<td class ="tbu" width="300px">
@@ -107,7 +106,7 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 		</td>
 		</tr>
 		<tr>
-		<td width="130px" class = "string">
+		<td width="135px" class = "string">
 		Имя
 		</td>
 		<td class ="tb" width="300px">
@@ -115,7 +114,7 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 		</td>
 		</tr>
 		<tr>
-		<td width="130px" class = "string">
+		<td width="135px" class = "string">
 		Страна или регион
 		</td>
 		<td class ="tb" width="300px">
@@ -129,7 +128,7 @@ width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
 		
 	</div>
 	
-	<br><br><br><br><br>
+	<br><br><br><br><br><br>
 	<div id = "buts">
 	<div class = "but1"> <span id="under">И</span>зменить метод ввода</div>
 	<div class = "but2"> <span id="under">О</span>тмена</div>

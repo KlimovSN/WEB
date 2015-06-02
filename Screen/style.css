@@ -11,7 +11,7 @@ body {
     font-size: 13px;
 	background: #1F0068;
 
-    padding: 5px;
+    padding: 0px;
     
 	color: #FFF9FF;
 	font-family:  Segoe UI;
@@ -19,12 +19,12 @@ body {
 
 .strings{
 /*margin: 50px 3px 50px 0px;*/
-margin-left: 35px;
+margin-left: 40px;
 
 }
 
 .string{
-margin: 0px 3px 0px 0px;
+margin: 0px 0px 0px 0px;
 }
 
 .tb {
@@ -56,7 +56,11 @@ font-family:  Segoe UI;
 #title{
 font-size: 22px;
 letter-spacing: 0px;
-padding: 0px 0px 10px 0px;
+padding: 2px 0px 10px 0px;
+}
+
+#tit2{
+margin: 0px 0px 8px 0px;
 }
 
 #back{
@@ -67,14 +71,14 @@ position: absolute;
 
 #clear{
 position: absolute;
-    left: 470px;
-    top: 285px;
+    left: 415px;
+    top: 275px;
 }
 
 #down{
 position: absolute;
-    left: 470px;
-    top: 390px;
+    left: 415px;
+    top: 380px;
 }
 
 .but3 {
@@ -82,7 +86,7 @@ color: #FFFFFF;
 border-style: solid;
 border-width: 2px;
 background: #4418B3;
-padding: 3px 3px 3px 3px;
+padding: 2px 2px 2px 2px;
 margin: 3px 10px 3px 10px;
 width:70px;
 float:right;
@@ -94,7 +98,7 @@ color: #FFFFFF;
 border-style: solid;
 border-width: 2px;
 background: #1F0068;
-padding: 3px 3px 3px 3px;
+padding: 2px 2px 2px 2px;
 margin: 3px 10px 3px 10px;
 width:70px;
 float:right;
@@ -106,8 +110,8 @@ color: #FFFFFF;
 border-style: solid;
 border-width: 2px;
 background: #1F0068;
-padding: 3px 3px 3px 3px;
-margin: 3px 10px 3px 10px;
+padding: 2px 2px 2px 2px;
+margin: 3px 25px 0px 10px;
 width:160px;
 float:right;
 text-align: center;
@@ -124,8 +128,8 @@ text-decoration:underline;
 table {
     border: 0px double #333; /* Рамка вокруг таблицы */ 
     border-collapse: separate; /* Способ отображения границы */ 
-    width: 75%; /* Ширина таблицы */ 
-    border-spacing: 7px 24px; /* Расстояние между ячейками */ 
+    width: 66%; /* Ширина таблицы */ 
+    border-spacing: 6px 24px; /* Расстояние между ячейками */ 
    }
    td {
     
